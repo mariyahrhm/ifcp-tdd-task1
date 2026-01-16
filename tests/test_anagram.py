@@ -1,4 +1,5 @@
 import unittest
+from anagrams import is_anagram
 
 class SmokeTest(unittest.TestCase):
     def test_basic_true(self):
