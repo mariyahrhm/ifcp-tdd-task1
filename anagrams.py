@@ -1,2 +1,2 @@
 def is_anagram(a, b):
-    return {a, b} == {"listen", "silent"}
+    return sorted(a) == sorted(b)
